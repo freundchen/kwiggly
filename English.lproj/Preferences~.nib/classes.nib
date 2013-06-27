@@ -1,0 +1,26 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                addEntry = id; 
+                apply = id; 
+                close = id; 
+                hotkeySelected = id; 
+                modifierSelected = id; 
+                removeEntry = id; 
+                updateHotkey = id; 
+            }; 
+            CLASS = PreferenceController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                colorWell = NSColorWell; 
+                hotkeyPopup = NSPopUpButton; 
+                modifierPopup = NSPopUpButton; 
+                tableView = NSTableView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

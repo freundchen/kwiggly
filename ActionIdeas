@@ -1,0 +1,9 @@
+- note: create a new sticky (stickies are not scriptable. booh)
+- dial: with phone number (from AB? autocompleted? with salling clicker?)
+- sms: see above
+- kill: kill process
+- quit: extend to take app name
+- open: pass to shell "open"
+- lock: lock the screen
+
+- eval: evaluate mathematical expressions

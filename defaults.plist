@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!-- $Header: /home/cvsmaster/CVSROOT/MacUtils/Kwiggly/defaults.plist,v 1.5 2004/03/24 14:06:04 enno Exp $ -->
+<dict>
+        <key>hotkeys</key>
+        <array>
+            <dict>
+                <key>keycode</key> <integer>10</integer>
+                <key>name</key>    <string>Degree/Roof</string>
+            </dict>
+            <dict>
+                <key>keycode</key><integer>53</integer>
+                <key>name</key><string>Escape</string>
+            </dict>
+            <dict>
+                <key>keycode</key><integer>36</integer>
+                <key>name</key><string>Return</string>
+            </dict>
+            <dict>
+                <key>keycode</key><integer>122</integer>
+                <key>name</key><string>F1</string>
+            </dict>
+            <dict>
+                <key>keycode</key><integer>120</integer>
+                <key>name</key><string>F2</string>
+            </dict>
+            <dict>
+                <key>keycode</key><integer>99</integer>
+                <key>name</key><string>F3</string>
+            </dict>
+            <dict>
+                <key>keycode</key><integer>118</integer>
+                <key>name</key><string>F4</string>
+            </dict>
+            <dict>
+                <key>keycode</key><integer>96</integer>
+                <key>name</key><string>F5</string>
+            </dict>
+            <dict>
+                <key>keycode</key><integer>97</integer>
+                <key>name</key><string>F6</string>
+            </dict>
+            <dict>
+                <key>keycode</key><integer>98</integer>
+                <key>name</key><string>F7</string>
+            </dict>
+            <dict>
+                <key>keycode</key><integer>100</integer>
+                <key>name</key><string>F8</string>
+            </dict>
+            <dict>
+                <key>keycode</key><integer>101</integer>
+                <key>name</key><string>F9</string>
+            </dict>
+            <dict>
+                <key>keycode</key><integer>109</integer>
+                <key>name</key><string>F10</string>
+            </dict>
+            <dict>
+                <key>keycode</key><integer>103</integer>
+                <key>name</key><string>F11</string>
+            </dict>
+            <dict>
+                <key>keycode</key><integer>111</integer>
+                <key>name</key><string>F12</string>
+            </dict>
+            <dict>
+                <key>keycode</key><integer>49</integer>
+                <key>name</key><string>Space</string>
+            </dict>
+            <dict>
+                <key>keycode</key><integer>114</integer>
+                <key>name</key><string>Help</string>
+            </dict>
+		</array>
+        
+        <key>keywords</key>
+        <dict>
+            <key>gg</key>
+            <string>http://www.google.com/search?q=%@&amp;ie=UTF-8&amp;oe=UTF-8</string>
+
+            <key>url</key>
+            <string>%@</string>
+
+            <key>http</key>
+            <string>http:%@</string>
+
+            <key>y</key>
+            <string>http://search.yahoo.com/bin/search?p=%@</string>
+
+            <key>atw</key>
+            <string>http://www.alltheweb.com/search?q=%@</string>
+
+            <key>t</key>
+            <string>http://s.teoma.com/search?q=%@</string>
+
+            <key>img</key>
+            <string>http://images.google.com/images?q=%@&amp;ie=UTF-8&amp;oe=UTF-8&amp;hl=en&amp;btnG=Google+Search</string>
+
+            <key>fm</key>
+            <string>http://freshmeat.net/search/?q=%@&amp;section=projects&amp;x=0&amp;y=0</string>
+
+            <key>dvd</key>
+            <string>http://www.dvd.de/dvd-and-date/alledvd.asp?dummy=1&amp;strTxt=%@&amp;Action=Suchen</string>
+
+            <key>imdb</key>
+            <string>http://us.imdb.com/Find?for=%@</string>
+
+            <key>cpan</key>
+            <string>http://search.cpan.org/search?query=%@&amp;mode=all</string>
+
+            <key>dict</key>
+            <string>http://dict.leo.org/?search=%@&amp;searchLoc=0&amp;relink=on&amp;spellToler=standard&amp;sectHdr=on&amp;tableBorder=1&amp;cmpType=relaxed&amp;lang=en</string>
+
+            <key>mw</key>
+            <string>http://www.m-w.com/cgi-bin/dictionary?va=%@</string>
+
+            <key>plan</key>
+            <string>http://www.berlin.de/stadtplan/map.asp?str=%@&amp;start.x=5</string>
+
+            <key>mail</key>
+            <string>builtin:newmail</string>
+
+            <key>spref</key>
+            <string>script:systemprefs</string>
+
+            <key>about</key>
+            <string>builtin:about</string>
+
+            <key>pref</key>
+            <string>builtin:preferences</string>
+
+            <key>quit</key>
+            <string>builtin:quit</string>
+
+        </dict>
+
+</dict>
+</plist>
+        

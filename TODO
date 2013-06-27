@@ -1,0 +1,62 @@
+==============================================================
+Policy fürs TODO-File:
+fixed items nach hinten unter DONE
+einsortieren. dann kommen die mal ins Changes irgendwann :-)
+==============================================================
+
+- configure the default (where to search if no keyword given)
+- check for double keywords
+- syntax-check der expansions (scheme prüfen und so)
+- register more defaults with the defaults system to make sure we got some defaults.
+- add history/completion (cf. urls in safarii, google for KFCompletingTextFormatter)
+- add "help" builtin
+- try description textfield underneath searchtext 
+- for eyrich: minimal mode without "enter query:"
+- configure shortcuts as "bindings" between actual shortcuts and some entries in a library of actions
+- make it a system preference panel like salling (with hidden helper app)
+- add descriptions to actions
+- what about an "open" shortcut (simply call "open" with given string)
+- for eyrich: minimal mode without "enter query:"
+- unify builtins/schemes? do we need both?
+- use current safari url as template when creating new shortcut
+
+FEATURES
+- history/completion facility. (how to present? dropdown? nice little window?) specify completer for every handler
+- powerpath: when the searchstring starts with a "/" automatically assume it's going
+    to be a path passed to "open" and complete it (with tab?)
+- launching capabilities (combine with completion of appname)
+- integrate Services for each binding
+- integrate web services? any use? google web api?
+- multisearch: one shortcut to search multiple engines and open in tabs
+- XQuery-based display of results of query (cf. Sherlock, evaluate XQEngine, nekohtml, kawa/quexo)
+- create java connection (could help for xquery stuff using gnu xquery engine), allows to write Kwigglets
+- add a way to autoconfigure searches like omniweb does. can we use webkit for this? (use webkit, display page,
+    let user click in textfield, find currently edited textfield, trigger an enter there and catch the URL 
+    using standard webkit functionality "formsubmitted" ... maybe insertText: and insertNewline 
+    on the webview will suffice to trigger submission)
+- integrate some "make it big" shortcut (like "big foo" writes foo big on the screen like adressbook does with
+  phone numbers)
+- POST method (might ne necessary to hack into safari with an input manager or so to do this)
+
+MISC 
+- make "recognized" keywords cooler, eg by "surrounding" it with a colored oval (like recognized email-adresses) 
+    with a tooltip showing the expansion descrition (or find a keyboard
+    equivalent for that. see also above TODOI item)
+- LOGO Idea: Swiss army knife with a search window folding out...
+- newmail-builtin: show (big?) which email actually got chosen. (let user choose in case of multimatch?)
+- configure shortcuts as "bindings" between actual shortcuts and some entries in a library of actions
+- "launch mode" like launchbar, triggered via first character (cf hot prefixes)
+
+DONE
+- make pref window nicer: have a textfield for the url/description/shortcut (cf. omniweb shortcuts)
+- window position configurable or at least save the pos where user drags window to (maybe snap to edges while dragging)
+- hotkey selectable 
+- fix appleScript connection
+- initialize userdefaults on startup (are now initialized on first search, so if you
+    open prefs on first startup, they are still empty). simply use a plist in the bundle for this!
+- confirm deletion of bindings in prefs
+- allow multiple replacements of searchstring in pattern (but do NOT repeat replacement until no "%@" are there! :-)
+- give feedback if user entered a known keyword (maybe small text underneath search window that gives
+       information what action will be triggered by this keyword, eg which search enginge)
+
+

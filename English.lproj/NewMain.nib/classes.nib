@@ -1,0 +1,28 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {executeSearch = id; showAbout = id; showPreferences = id; }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mainWindow = OverlayWindow; 
+                popUp = NSPopUpButton; 
+                searchField = NSTextField; 
+            }; 
+            SUPERCLASS = NSResponder; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = KwigglyApp; LANGUAGE = ObjC; SUPERCLASS = NSApplication; }, 
+        {CLASS = NoHitTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {CLASS = OverlayWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {
+            ACTIONS = {addEntry = id; apply = id; cancel = id; ok = id; }; 
+            CLASS = PreferenceController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {tableView = NSTableView; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = RoundRectView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

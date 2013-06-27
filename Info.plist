@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!-- $Header: /home/cvsmaster/CVSROOT/MacUtils/Kwiggly/Info.plist,v 1.12 2004/03/26 16:00:28 enno Exp $ -->
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Kwiggly</string>
+	<key>CFBundleIconFile</key>
+	<string>knife.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>de.e4d.Kwiggly</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>9</string>
+	<key>LSUIElement</key>
+	<integer>1</integer>
+	<key>NSMainNibFile</key>
+	<string>NewMain</string>
+	<key>NSPrincipalClass</key>
+	<string>KwigglyApp</string>
+</dict>
+</plist>
